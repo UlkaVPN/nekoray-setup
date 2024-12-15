@@ -24,3 +24,4 @@ wget -qO- https://raw.githubusercontent.com/UlkaVPN/nekoray-setup/main/nekoray-i
 ```
 
 For additional support, reach out to the [UlkaVPN bot](https://t.me/ulkavpn_bot) (`Menu` -> `Support`).
+
