@@ -1,6 +1,6 @@
-# NekoRay Installation Guide by [UlkaVPN](https://t.me/ulkavpn_bot)
+# Nekoray Installation Guide by [UlkaVPN](https://t.me/ulkavpn_bot)
 
-This guide provides instructions for installing NekoRay and configuring UlkaVPN on Debian-based Linux distributions.
+This guide provides instructions for installing Nekoray and configuring UlkaVPN on Debian-based Linux distributions.
 
 ## System Requirements
 
@@ -17,7 +17,7 @@ sudo apt install build-essential \
 
 ## NekoRay Installation
 
-To install the latest version of [NekoRay](https://github.com/MatsuriDayo/nekoray) with a desktop shortcut on your Linux system, execute the following command in the terminal:
+To install the latest version of [Nekoray](https://github.com/MatsuriDayo/nekoray) with a desktop shortcut on your Linux system, execute the following command in the terminal:
 
 ```shell
 wget -qO- https://raw.githubusercontent.com/UlkaVPN/nekoray-setup/main/nekoray-installer.sh | bash
