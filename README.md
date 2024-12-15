@@ -15,7 +15,7 @@ sudo apt install build-essential \
                  libqt5gui5
 ```
 
-## NekoRay Installation
+## Nekoray Installation
 
 To install the latest version of [Nekoray](https://github.com/MatsuriDayo/nekoray) with a desktop shortcut on your Linux system, execute the following command in the terminal:
 
