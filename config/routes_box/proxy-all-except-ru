@@ -1,0 +1,13 @@
+{
+    "block_domain": "geosite:category-ads-all",
+    "custom": "{\"rules\":[]}",
+    "def_outbound": "proxy",
+    "direct_dns": "https://doh.pub/dns-query",
+    "direct_domain": "geosite:private\ngeosite:category-ru",
+    "direct_ip": "geoip:private\ngeoip:ru",
+    "dns_final_out": "proxy",
+    "dns_routing": true,
+    "remote_dns": "https://dns.google/dns-query",
+    "sniffing_mode": 1,
+    "use_dns_object": false
+}
