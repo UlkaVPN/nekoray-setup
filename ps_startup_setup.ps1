@@ -27,20 +27,19 @@ if ((Test-Admin) -eq $false) {
 }
 
 Set-Location "$workingDirOverride"
-Set-ExecutionPolicy remotesigned
 ##### END ELEVATE TO ADMIN #####
 
 
 $currentUser = "$env:USERDOMAIN\$env:USERNAME"
-$programName = "nekobox.exe"
-$taskName = "nekobox Startup Task"
+$programName = "nekoray.exe"
+$taskName = "nekoray Startup Task"
 $taskPath = "\"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $principal = New-ScheduledTaskPrincipal -UserId $currentUser -LogonType Interactive -RunLevel Highest
 $action = New-ScheduledTaskAction -Execute "`"$(Join-Path $scriptDir $programName)`""
-$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -DontStopOnIdleEnd -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Days 7)
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -DontStopOnIdleEnd -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Days 30)
 $trigger = New-ScheduledTaskTrigger -AtLogOn
 
 Register-ScheduledTask -TaskName $taskName -TaskPath $taskPath -Principal $principal -Action $action -Settings $settings -Trigger $trigger

@@ -3,9 +3,12 @@
     "check_include_pre": false,
     "conn_stat": false,
     "core_box_clash_api": -9090,
+    "core_ray_direct_dns": false,
+    "core_ray_windows_disable_auto_interface": false,
     "current_group": 0,
     "custom_inbound": "{\"inbounds\": []}",
-    "custom_route": "{\"rules\":[]}",
+    "custom_route": "{\"rules\": []}",
+    "enable_js_hook": 0,
     "extraCore": {
         "core_map": "{\"hysteria\":\"\",\"hysteria2\":\"\",\"naive\":\"\",\"tuic\":\"\"}"
     },
@@ -13,6 +16,7 @@
     "inbound_address": "127.0.0.1",
     "inbound_auth": {
     },
+    "inbound_http_port": 2081,
     "inbound_socks_port": 2080,
     "language": 0,
     "log_ignore": [
@@ -27,7 +31,7 @@
     "remember_enable": true,
     "remember_id": 1,
     "skip_cert": false,
-    "splitter_state": "AAAA/wAAAAEAAAACAAAAwAAAASMB/////wEAAAACAA==",
+    "splitter_state": "AAAA/wAAAAEAAAACAAAA3gAAAN4B/////wEAAAACAA==",
     "spmode2": [
         "vpn"
     ],

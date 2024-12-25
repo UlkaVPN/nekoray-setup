@@ -1,8 +1,8 @@
 {
     "block_domain": "geosite:category-ads-all",
-    "custom": "{\"rules\":[]}",
+    "custom": "{\"rules\": []}",
     "def_outbound": "bypass",
-    "direct_dns": "https://doh.pub/dns-query",
+    "direct_dns": "localhost",
     "dns_final_out": "proxy",
     "dns_routing": true,
     "proxy_domain": "geosite:deviantart\ngeosite:discord\ngeosite:google-gemini\ngeosite:google-play\ngeosite:linkedin\ngeosite:meta\ngeosite:openai\ngeosite:patreon\ngeosite:protonmail\ngeosite:soundcloud\ngeosite:tiktok\ngeosite:x\ngeosite:youtube\n\ndomain:rutracker.org",

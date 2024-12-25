@@ -1,9 +1,9 @@
 {
     "block_domain": "geosite:category-ads-all",
-    "custom": "{\"rules\":[]}",
+    "custom": "{\"rules\": []}",
     "def_outbound": "proxy",
-    "direct_dns": "https://doh.pub/dns-query",
-    "direct_domain": "geosite:private\ngeosite:category-ru",
+    "direct_dns": "localhost",
+    "direct_domain": "geosite:private\ngeosite:category-ru\n\ngeosite:microsoft\ngeosite:reddit\ngeosite:steam\ngeosite:twitch\ngeosite:imgur",
     "direct_ip": "geoip:private\ngeoip:ru",
     "dns_final_out": "proxy",
     "dns_routing": true,
