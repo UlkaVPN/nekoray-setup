@@ -14,11 +14,13 @@
     },
     "fakedns": false,
     "inbound_address": "127.0.0.1",
-    "inbound_auth": {},
+    "inbound_auth": {
+    },
     "inbound_http_port": 2081,
     "inbound_socks_port": 2080,
     "language": 0,
-    "log_ignore": [],
+    "log_ignore": [
+    ],
     "log_level": "warn",
     "max_log_line": 200,
     "mux_concurrency": 8,
